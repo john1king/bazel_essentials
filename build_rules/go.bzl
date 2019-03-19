@@ -10,7 +10,7 @@ def go_repositories():
   )
   native.new_local_repository(
       name = "local_go_mac",
-      path = "/usr/local/go",   # default os x installation path
+      path = "/usr/local/bin/go",   # default os x installation path
       build_file_content = "",
   )
   rules_go_go_repositories(
